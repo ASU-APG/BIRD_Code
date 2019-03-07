@@ -1,2 +1,2 @@
-# QLearningBL
-Q-Learning baseline for Blocks world dataset 
+# BIRD (Blocksworld Image Reasoning Dataset)
+Codebase for Image-based Event Sequencing (IES) 
