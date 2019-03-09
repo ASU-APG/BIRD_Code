@@ -1,0 +1,18 @@
+
+
+##############################################
+INFORMATION
+##############################################
+
+The GPU version of tensorflow loads two python modules by default.
+Should you encounter python related errors, it is recommended to unload one python module
+
+e.g.  module unload python/.3.6.5-tf18-gpu
+
+
+Traceback (most recent call last):
+  File "test.py", line 95, in <module>
+    checkpoint = torch.load('./saved_models/model_arr_20190211_21_0.005_64_mse.ckpt')
+  File "/home/tgokhale/work/code/pytorch1_0/lib/python3.6/site-packages/torch/serialization.py", line 365, in load
+    f = open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './saved_models/model_arr_20190211_21_0.005_64_mse.ckpt'

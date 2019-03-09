@@ -1,0 +1,12 @@
+
+
+##############################################
+INFORMATION
+##############################################
+
+The GPU version of tensorflow loads two python modules by default.
+Should you encounter python related errors, it is recommended to unload one python module
+
+e.g.  module unload python/.3.6.5-tf18-gpu
+
+

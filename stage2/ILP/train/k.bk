@@ -1,0 +1,15 @@
+fluent(on(X,Y)):-arg1(X),arg2(Y).
+
+holdsAt(F,T+1):- fluent(F),time(T),initiatedAt(F,T).
+holdsAt(F,T+1):- fluent(F),time(T),holdsAt(F,T),not terminatedAt(F,T).
+
+%only table can have multiple objects on top of it
+:- holdsAt(on(X,Y),T), holdsAt(on(Z,Y),T), X!=Z, Y!=t.
+%can be on top of only one object
+:- holdsAt(on(X,Y),T), holdsAt(on(X,Z),T), Z!=Y.
+
+arg2(r;g;b;p;y;o;t;n).
+arg1(r;g;b;p;y;o).
+						
+
+

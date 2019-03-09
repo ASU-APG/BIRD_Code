@@ -1,9 +1,0 @@
-time(1..3).
-
-holdsAt(on(o,t),1).
-holdsAt(on(b,o),1).
-
-happensAt(move(b,t),2).
-
-#example holdsAt(on(o,t),3).
-#example holdsAt(on(b,t),3).

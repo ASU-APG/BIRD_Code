@@ -1,0 +1,16 @@
+
+
+##############################################
+INFORMATION
+##############################################
+
+The GPU version of tensorflow loads two python modules by default.
+Should you encounter python related errors, it is recommended to unload one python module
+
+e.g.  module unload python/.3.6.5-tf18-gpu
+
+
+/home/tgokhale/work/code/pytorch1_0/lib/python3.6/site-packages/torch/nn/functional.py:2351: UserWarning: nn.functional.upsample is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.functional.upsample is deprecated. Use nn.functional.interpolate instead.")
+/home/tgokhale/work/code/pytorch1_0/lib/python3.6/site-packages/torch/nn/functional.py:2423: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))

@@ -1,2 +1,0 @@
-initiatedAt(on(V1,V2),V3):-happensAt(move(V1,V2),V3),arg1(V1),arg2(V2),time(V3).
-terminatedAt(on(V1,V2),V3):-happensAt(move(V1,V4),V3),arg1(V1),arg2(V2),time(V3),arg2(V4).
