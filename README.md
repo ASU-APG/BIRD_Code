@@ -1,4 +1,5 @@
 # Blocksworld Revisited + Blocksworld Image Reasoning Dataset
+This repository contains data and code for replicating experiments as in  [*Blocksworld Revisited: Learning and Reasoning to Generate Event-Sequences from Image Pairs*](https://www.yezhouyang.engineering.asu.edu "Temp").
 
 Please download the data from https://drive.google.com/file/d/1tuwPCe5W3_hI2bWQoSjD15ZU2X0fROSo/view?usp=sharing and unzip it. It should create ./data/ 
 
