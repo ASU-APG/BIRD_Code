@@ -3,6 +3,8 @@ This repository contains data and code for replicating experiments as in  [*Bloc
 
 Please download the data from https://drive.google.com/file/d/1tuwPCe5W3_hI2bWQoSjD15ZU2X0fROSo/view?usp=sharing and unzip it. It should create ./data/ 
 
+We provide the code for solving the Image-Based Event Sequencing (IES) task on BIRD. As explained in the paper, we present both end-to-end and two stage approaches to solving IES. Code is organized as follows:
+
 - Stage-I     : encoders (Arrangement, Color)
 
 - Stage-II    : fully-connected, q-learning, ILP
@@ -16,7 +18,7 @@ Inside ```./data``` you'll find the data needed to run our experiments. This is 
 
 ### Event-Sequence Data
 - CSVs required to run End-to-End experiments can be found in ```./data/final_plans/```. This includes datasets created for our baselines as well as ablation studies. This data contains sequences as 128bit binary vectors
-- CSVs for Stage-II experiments can be found in ./data/gt_plans . This data contains sequences as textual descriptions of the form mov(X, Y, t) as explained in the paper.
+- CSVs for Stage-II experiments can be found in ```./data/gt_plans``` . This data contains sequences as textual descriptions of the form mov(X, Y, t) as explained in the paper.
 ## Compilation Example
 - ```cd ./e2e/e2e_resnet/```
 - If you are using SLURM/SBATCH, submit batch scripts using ```sbatch run_e2e_resnet.sh```
