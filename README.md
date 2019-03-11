@@ -1,4 +1,4 @@
-# BIRD_Code
+# Blocksworld Revisited + Blocksworld Image Reasoning Dataset
 
 Please download the data from https://drive.google.com/file/d/1tuwPCe5W3_hI2bWQoSjD15ZU2X0fROSo/view?usp=sharing and unzip it. It should create ./data/ 
 
